@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  background-image: url("img/Reskill.jpg");
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url("img/Reskill-Brain.jpg");
+  /*background-repeat: no-repeat;*/
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  font-size: 50px" ;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">
+  <h2>Reskilling</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>What is Reskilling?</h2>
+      
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Unlike upskilling, which focuses on adding to an existing skill set within a role (for instance, due to new technology), reskilling refers to <i><u>the process of learning new skills needed to do an entirely different job.</u></i> 
+    </p>
+    <p>Reskilling has become a buzzword among governments and nonprofits as a way to help left-behind workers find new careers. But it’s also an essential strategy for organizations to meet their staffing needs and succeed in a changing world. For individual employees, reskilling can present opportunities to change roles in their current organization or at a new company. 
+     Examples of reskilling can cover anything from retail store workers retraining as customer support specialists, to warehouse workers becoming robot technicians, to accountants becoming data scientists.
+    </p>
+    <p>Organization like Yubi launched new reskilling for women returnee. <a href ="https://www.go-yubi.com/careers/back2epic/">Checkout of the website for it </a></p>
+    
+    </div>
+    <div class="card">
+      <h2>Why Reskilling?</h2>
+      
+      <p>Skill development has always been important, but COVID-19 has increased the stakes. It dramatically expedited the process of digitization. The pandemic left no choice for companies that were previously reluctant to switch from legacy systems to new cloud-based platforms. 
+
+    </p><p> <u>Embracing digital transformation and the integration of new technology into business practices is now every leader’s responsibility, regardless of job function or industry.</u>
+        
+     </p><p>   This digital transformation led to a sharp rise in the development of new systems and software, reducing the shelf-life of current technical skills and creating a demand for new skill sets.
+        
+     </p><p>   Digital transformation has increased the demand for digital skills such as AI and machine learning, as they drive productivity, automate processes, and perform complex computational tasks quickly. Organizations must invest in their workforce reskilling to adapt to these changing conditions. Otherwise, they stand to lose market position and fade to their competition.
+        </p>
+    </div>
+    <div class="card">
+        <h2>Benefits of reskilling</h2>
+        
+        <p>
+            Meeting future demand of technology with current world projects.
+           </p>
+           <p> Job security as we have right skill in place we can be confident about the job we are in</p>
+            
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      
+      <p>Hi Iam a career returnee and now enrolled for Yubi's Back2Epic program with reskilling, happy to share the essence of reskilling </p>
+    </div>
+    <div class="card">
+      <h3>Why waitingRegister </h3>
+      <p>
+        Incase you are looking for reskilling on new skills, please click the link below <br/>
+        <a href="login.html"><b>Register</b></a>
+       </p>
+      
+      
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+    <a href="https://www.facebook.com" class="fa fa-facebook" ></a>
+    <a href="https://www.twitter.com" class="fa fa-twitter"  ></a>
+    <a href="https://www.google.com" class="fa fa-google"  ></a>
+  <a href="https://www.linkedin.com" class="fa fa-linkedin"  ></a>
+  <a href="https://www.youtube.com" class="fa fa-youtube" ></a>
+  
+</div>
+
+</body>
+</html>
