@@ -1,0 +1,57 @@
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    
+    background-image: url("../../img/Reskill.jpg");
+  }
+
+  .leftcolumn {   
+    float: left;
+    width: 70%;
+  }
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+ }
+ .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    background-image: url("../../img/Reskill-Brain.jpg");
+    /* background-repeat: no-repeat; */
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .inputcss{
+    color:blue;
+    width: 30px
+}
+
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    font-size: 30px ;
+  }
