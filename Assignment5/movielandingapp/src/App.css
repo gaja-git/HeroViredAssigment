@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+  }
+
+body {
+	background: #141414;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.heading{
+	text-align: center;
+	color: rgba(111, 0, 255, 0.863);
+}
+
+.category_heading{
+	text-align:left;
+	color: rgb(255, 140, 0);
+}
+
+.movie-app > .row {
+	overflow-x: auto;	
+	flex-wrap: nowrap; 
+	padding: 5px;
+	float: left;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+/* .movie-app > .row {
+	float: left;
+  width: 33.33%;
+  padding: 5px;
+} */
+
+.image-container {
+	 display: flex;
+	 position: relative; 
+	gap: 5px; 
+	transition: transform 0.2s;
+	/* position: relative; 
+	
+	height: 150px;
+	width: 150px; */
+	
+
+
+	/* margin: 0px 10px 30px 20px; */
+	/* background-image: url("C:/Users/Laksh/OneDrive/Desktop/Gaja/Yubi-Reskilling/React/movielandingapp/src/components/img/Training.jpg"); */
+}
+
+.image:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.image:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
