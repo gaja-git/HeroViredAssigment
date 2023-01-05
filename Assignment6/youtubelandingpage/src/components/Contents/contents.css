@@ -8,16 +8,18 @@
   width: 100%;
   background-color: white;
   display: flex;
-
+  /* flex-direction: column; */
   gap: 1rem;
   flex-wrap: wrap;
   overflow-y: scroll;
   justify-content: space-evenly;
   /* padding: 10px; */
+  row-gap: 1px;
+  white-space: normal;
 }
 .videoitem {
-  margin: 5px;
-  height: 40%;
+  /* margin: 5px; */
+  height: 25%;
   width: 23%;
   background-color: white;
   color: white;
@@ -27,6 +29,10 @@
   overflow: hidden;
   border-radius: 5px;
   flex-wrap: wrap;
+  row-gap: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2px;
 }
 
 .videoitem:hover {
