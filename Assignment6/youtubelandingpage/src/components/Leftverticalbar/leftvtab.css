@@ -1,0 +1,22 @@
+.lefttab {
+  height: 90%;
+  width: 15%;
+  margin: 6px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  overflow-y: scroll;
+  row-gap: 5px;
+  cursor: pointer;
+}
+
+.lefttab > button {
+  background-color: white;
+  counter-reset: black;
+}
+
+.bot-border {
+  border-bottom: 1px solid black;
+}

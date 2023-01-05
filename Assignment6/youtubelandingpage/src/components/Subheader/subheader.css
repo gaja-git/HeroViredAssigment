@@ -1,0 +1,21 @@
+.subheader {
+  height: 50%;
+  width: 100%;
+  padding: 2px;
+
+  justify-content: space-evenly;
+  /* overflow-x: scroll; */
+  /* background-color: blueviolet; */
+}
+.subheader > button {
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #d0e1e1;
+}
+.selected {
+  background-color: #507c7c;
+  color: white;
+}
