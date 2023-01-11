@@ -1,0 +1,9 @@
+body {
+  background-image: url("../images/moive.webp");
+  text-align: center;
+}
+.mymovstyle {
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: center;
+}

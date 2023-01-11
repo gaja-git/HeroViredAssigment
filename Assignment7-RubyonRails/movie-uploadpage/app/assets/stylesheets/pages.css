@@ -1,0 +1,7 @@
+.mystyle {
+  color: green;
+  background-color: #cccccc;
+  background-image: url("..\images\Kitchen.jpg");
+  text-align: center;
+  justify-content: center;
+}
